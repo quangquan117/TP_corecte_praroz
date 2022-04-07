@@ -23,7 +23,7 @@ header{
     width: 20rem;
     float: left;
     height: 7rem;
-    color: #ff7200;
+    color: var(--color-theme-main);
     font-size: 3.5rem;
     font-family: Arial;
     padding-left: 2rem;
@@ -61,7 +61,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #ff7200;
+    color: var(--color-theme-main);
 }
 
 .search{
@@ -75,7 +75,7 @@ ul li a:hover{
     width: 20rem;
     height: 4rem;
     background: transparent;
-    border: 0.1rem solid #ff7200;
+    border: 0.1rem solid var(--color-theme-main);
     margin-top: 1.3rem;
     color: #fff;
     border-right: none;
@@ -89,8 +89,8 @@ ul li a:hover{
 .btn{
     width: 10rem;
     height: 4rem;
-    background: #ff7200;
-    border: 0.2rem solid #ff7200;
+    background: var(--color-theme-main);
+    border: 0.2rem solid var(--color-theme-main);
     margin-top: 1.3rem;
     color: #fff;
     font-size: 1.5rem;
@@ -139,7 +139,7 @@ ul li a:hover{
 .content .cn{
     width: 16rem;
     height: 4rem;
-    background: #ff7200;
+    background: var(--color-theme-main);
     border: none;
     margin-bottom: 1rem;
     margin-left: 2rem;
@@ -161,7 +161,7 @@ ul li a:hover{
 }
 
 .content span{
-    color: #ff7200;
+    color: var(--color-theme-main);
     font-size: 6.5rem;
 }
 
@@ -181,7 +181,7 @@ ul li a:hover{
     width: 22rem;
     font-family: sans-serif;
     text-align: center;
-    color: #ff7200;
+    color: var(--color-theme-main);
     font-size: 2.2rem;
     background-color: #fff;
     border-radius: 1rem;
@@ -193,7 +193,7 @@ ul li a:hover{
     width: 24rem;
     height: 3.5rem;
     background: transparent;
-    border-bottom: 0.1rem solid #ff7200;
+    border-bottom: 0.1rem solid var(--color-theme-main);
     border-top: none;
     border-right: none;
     border-left: none;
@@ -216,7 +216,7 @@ ul li a:hover{
 .btnn{
     width: 24rem;
     height: 4rem;
-    background: #ff7200;
+    background: var(--color-theme-main);
     border: none;
     margin-top: 3rem;
     font-size: 1.8rem;
@@ -227,7 +227,7 @@ ul li a:hover{
 }
 .btnn:hover{
     background: #fff;
-    color: #ff7200;
+    color: var(--color-theme-main);
 }
 .btnn a{
     text-decoration: none;
@@ -242,7 +242,7 @@ ul li a:hover{
 }
 .form .link a{
     text-decoration: none;
-    color: #ff7200;
+    color: var(--color-theme-main);
 }
 .liw{
     padding-top: 1.5rem;
@@ -261,5 +261,5 @@ ul li a:hover{
     transition: 0.3s ease;
 }
 .icons ion-icon:hover{
-    color: #ff7200;
+    color: var(--color-theme-main);
 }
